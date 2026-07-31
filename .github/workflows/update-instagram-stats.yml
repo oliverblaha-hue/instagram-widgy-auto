@@ -1,0 +1,35 @@
+name: Update Instagram stats
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "17 */2 * * *"
+
+permissions:
+  contents: write
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Update Instagram JSON
+        env:
+          IG_ACCESS_TOKEN: ${{ secrets.IG_ACCESS_TOKEN }}
+          IG_USER_ID: ${{ vars.IG_USER_ID || secrets.IG_USER_ID || 'me' }}
+          IG_API_HOST: ${{ vars.IG_API_HOST || 'https://graph.instagram.com' }}
+          META_GRAPH_VERSION: v26.0
+        run: python scripts/update_instagram_stats.py
+
+      - name: Commit JSON
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: Update Instagram stats
+          file_pattern: instagram.json
