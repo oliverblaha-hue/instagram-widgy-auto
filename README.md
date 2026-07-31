@@ -14,7 +14,7 @@ Příklad obsahu:
 
 ```json
 {
-  "username": "oliverblaha.cz",
+  "username": "oliver_blaha_gallery",
   "followers": 1234,
   "followers_display": "1 234",
   "following": 321,

@@ -51,7 +51,7 @@ def fetch_stats():
     posts = payload.get("media_count")
 
     return {
-        "username": payload.get("username", "oliverblaha.cz"),
+        "username": payload.get("username", "oliver_blaha_gallery"),
         "followers": followers,
         "followers_count": followers,
         "followers_display": format_int(followers),
