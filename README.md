@@ -28,7 +28,7 @@ Příklad obsahu:
 1. Repo už je vytvořené: `https://github.com/oliverblaha-hue/instagram-widgy-auto`.
 2. GitHub Pages už publikuje JSON:
    `https://oliverblaha-hue.github.io/instagram-widgy-auto/instagram.json`.
-3. Workflow **Update Instagram stats** běží automaticky podle plánu a dá se spustit ručně v záložce **Actions**.
+3. Workflow **Update Instagram stats** běží automaticky každých 5 minut a dá se spustit ručně v záložce **Actions**.
 4. Pro nejlepší spolehlivost můžeš později přidat secret:
    - název: `IG_ACCESS_TOKEN`
    - hodnota: tvůj dlouhodobý Instagram User Access Token
