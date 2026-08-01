@@ -1,13 +1,13 @@
 # Instagram followers pro Widgy
 
-Automatická varianta pro profesionální Instagram účet. Skript načte počet sledujících přes oficiální Instagram API a uloží jednoduchý `instagram.json`, který může číst Widgy.
+Automatická varianta pro profesionální Instagram účet. Skript uloží jednoduchý `instagram.json`, který může číst Widgy. Nejstabilnější je oficiální Instagram API, ale projekt umí běžet i bez Meta registrace přes veřejné fallbacky.
 
 ## Co z toho vznikne
 
 Veřejný JSON endpoint:
 
 ```text
-https://TVUJ_GITHUB.github.io/instagram-widgy-auto/instagram.json
+https://oliverblaha-hue.github.io/instagram-widgy-auto/instagram.json
 ```
 
 Příklad obsahu:
@@ -25,25 +25,17 @@ Příklad obsahu:
 
 ## Nejjednodušší postup
 
-1. Vytvoř na GitHubu nový repozitář třeba `instagram-widgy-auto`.
-2. Nahraj do něj všechny soubory z této šablony.
-3. V GitHubu otevři **Settings > Secrets and variables > Actions**.
-4. Pro nejlepší spolehlivost přidej secret:
+1. Repo už je vytvořené: `https://github.com/oliverblaha-hue/instagram-widgy-auto`.
+2. GitHub Pages už publikuje JSON:
+   `https://oliverblaha-hue.github.io/instagram-widgy-auto/instagram.json`.
+3. Workflow **Update Instagram stats** běží automaticky podle plánu a dá se spustit ručně v záložce **Actions**.
+4. Pro nejlepší spolehlivost můžeš později přidat secret:
    - název: `IG_ACCESS_TOKEN`
    - hodnota: tvůj dlouhodobý Instagram User Access Token
 5. Pokud používáš starší Facebook/Page napojení místo Instagram Login, přidej i repository variable nebo secret:
    - název: `IG_USER_ID`
    - hodnota: tvoje Instagram User ID
    - volitelně variable `IG_API_HOST` nastav na `https://graph.facebook.com`
-6. V GitHubu otevři **Settings > Pages**.
-7. Nastav **Deploy from a branch**.
-8. Vyber větev `main` a složku `/root`.
-9. V záložce **Actions** spusť workflow **Update Instagram stats** ručně.
-10. Otevři adresu:
-
-```text
-https://TVUJ_GITHUB.github.io/instagram-widgy-auto/instagram.json
-```
 
 ## Widgy
 
@@ -70,4 +62,4 @@ updated_at
 
 Nikdy nevkládej Instagram access token přímo do Widgy. Widget by ho mohl zbytečně vystavit. Token patří jen do GitHub Secretu `IG_ACCESS_TOKEN`.
 
-Když `IG_ACCESS_TOKEN` chybí, skript automaticky použije veřejný profil `oliver_blaha_gallery` a zkusí přečíst počet sledujících z veřejné HTML stránky Instagramu. Je to zdarma a bez Meta registrace, ale je to neoficiální fallback, takže se může rozbít, pokud Instagram změní stránku nebo začne GitHub blokovat.
+Když `IG_ACCESS_TOKEN` chybí, skript automaticky použije veřejný profil `oliver_blaha_gallery`. Nejdřív zkusí veřejnou HTML stránku Instagramu. Pokud Instagram GitHub zablokuje, použije nouzově veřejnou cache Instastatistics. Je to zdarma a bez Meta registrace, ale číslo může být zpožděné a fallback se může rozbít, pokud se změní veřejné zdroje.
