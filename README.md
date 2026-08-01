@@ -28,7 +28,7 @@ Příklad obsahu:
 1. Vytvoř na GitHubu nový repozitář třeba `instagram-widgy-auto`.
 2. Nahraj do něj všechny soubory z této šablony.
 3. V GitHubu otevři **Settings > Secrets and variables > Actions**.
-4. Přidej secret:
+4. Pro nejlepší spolehlivost přidej secret:
    - název: `IG_ACCESS_TOKEN`
    - hodnota: tvůj dlouhodobý Instagram User Access Token
 5. Pokud používáš starší Facebook/Page napojení místo Instagram Login, přidej i repository variable nebo secret:
@@ -70,4 +70,4 @@ updated_at
 
 Nikdy nevkládej Instagram access token přímo do Widgy. Widget by ho mohl zbytečně vystavit. Token patří jen do GitHub Secretu `IG_ACCESS_TOKEN`.
 
-Token může být potřeba pravidelně obnovovat. Meta má pro Instagram dlouhodobé tokeny a refresh endpoint, ale pokud token vyprší, musí se vytvořit nový.
+Když `IG_ACCESS_TOKEN` chybí, skript automaticky použije veřejný profil `oliver_blaha_gallery` a zkusí přečíst počet sledujících z veřejné HTML stránky Instagramu. Je to zdarma a bez Meta registrace, ale je to neoficiální fallback, takže se může rozbít, pokud Instagram změní stránku nebo začne GitHub blokovat.
