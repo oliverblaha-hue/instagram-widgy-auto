@@ -1,14 +1,14 @@
 {
   "username": "oliver_blaha_gallery",
-  "followers": 27,
-  "followers_count": 27,
-  "followers_display": "27",
-  "following": 36,
-  "following_display": "36",
-  "posts": 12,
-  "posts_display": "12",
-  "profile_picture_url": "https://scontent-cdg4-2.cdninstagram.com/v/t51.82787-19/684572580_17887565835522447_9211964378668172633_n.jpg?stp=dst-jpg_e0_tt6&_nc_cat=101&ig_cache_key=GKS-zSiP0YV3pYw-AFmFEZrLeNd-bmNDAQAB0j-ccb7-5&ccb=7-5&_nc_sid=669407&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLnd3dy41OTYuQzMifQ%3D%3D&_nc_ohc=gBUx9E7p7fUQ7kNvwF2UROG&_nc_oc=AdrWMPLWjqUmhsolGzApIaCJOJ2y1NcA6OJ4uLAIvdFl3bj0aAu6CR6PhJ1H6N3EKUs&_nc_zt=24&_nc_ht=scontent-cdg4-2.cdninstagram.com&_nc_gid=Znof0VKFY1jvmWUk9aL07A&_nc_ss=7b39b&oh=00_AQGFWcJktyk9qNLc97tMbXjYagq6zj40VYsqDYizQbrLDA&oe=6A8C9BAE",
-  "updated_at": "2026-08-20T11:36:35Z",
-  "source": "instastatistics_public_cache",
-  "note": "Nouzovy verejny fallback bez Meta API tokenu. Hodnota muze byt zpozdena podle cache treti strany."
+  "followers": 29,
+  "followers_count": 29,
+  "followers_display": "29",
+  "following": 0,
+  "following_display": "0",
+  "posts": 44,
+  "posts_display": "44",
+  "profile_picture_url": "https://scontent-dfw6-1.cdninstagram.com/v/t51.82787-19/684572580_17887565835522447_9211964378668172633_n.jpg?stp=dst-jpg_s100x100_tt6&_nc_cat=101&ccb=7-5&_nc_sid=bf7eb4&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLnd3dy41OTYuQzMifQ%3D%3D&_nc_ohc=gBUx9E7p7fUQ7kNvwFzxdTm&_nc_oc=AdpYrAQf6rYx8UF5MQ_C8_9sVwXpge-vwz1OSQqV5Gr60aRdn836klxZNHUFrHhNIng&_nc_zt=24&_nc_ht=scontent-dfw6-1.cdninstagram.com&_nc_gid=ea1eVfJtrRpTdpCScATKAQ&_nc_ss=7b60f&oh=00_AQHHCKpi3M_5BDvS23xzx6qKhHg3m9jmtx6ZPbCAgNLB5A&oe=6A8CD3EE",
+  "updated_at": "2026-08-20T12:01:00Z",
+  "source": "instagram_public_profile",
+  "note": "Neoficialni verejny fallback bez Meta API tokenu. Muze se rozbit, kdyz Instagram zmeni HTML."
 }
