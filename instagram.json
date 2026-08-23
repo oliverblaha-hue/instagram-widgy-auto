@@ -1,14 +1,14 @@
 {
   "username": "oliver_blaha_gallery",
-  "followers": 29,
-  "followers_count": 29,
-  "followers_display": "29",
-  "following": 0,
-  "following_display": "0",
-  "posts": 44,
-  "posts_display": "44",
-  "profile_picture_url": "https://scontent-ord5-1.cdninstagram.com/v/t51.82787-19/684572580_17887565835522447_9211964378668172633_n.jpg?stp=dst-jpg_s100x100_tt6&_nc_cat=101&ccb=7-5&_nc_sid=bf7eb4&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLnd3dy41OTYuQzMifQ%3D%3D&_nc_ohc=DE8YCV5MPHcQ7kNvwGTl6JE&_nc_oc=AdpLzCauF6nbZPl0BNdmqq4SABSwgSIyGxnBJUH9xmxT6vp_cPKXPD4C5ih1QJmt3MI&_nc_zt=24&_nc_ht=scontent-ord5-1.cdninstagram.com&_nc_gid=QAoJKDTTnrR65evcCXvc9A&_nc_ss=7b60f&oh=00_AQHbBgwsW3pqeN7EwPI02WKWFH4RB1vyqZ4_WRowSqMqwQ&oe=6A90C86E",
-  "updated_at": "2026-08-23T11:30:56Z",
-  "source": "instagram_public_profile",
-  "note": "Neoficialni verejny fallback bez Meta API tokenu. Muze se rozbit, kdyz Instagram zmeni HTML."
+  "followers": 27,
+  "followers_count": 27,
+  "followers_display": "27",
+  "following": 36,
+  "following_display": "36",
+  "posts": 12,
+  "posts_display": "12",
+  "profile_picture_url": "https://scontent-ams2-1.cdninstagram.com/v/t51.82787-19/684572580_17887565835522447_9211964378668172633_n.jpg?efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLmRqYW5nby41OTYuYzIifQ&_nc_ht=scontent-ams2-1.cdninstagram.com&_nc_cat=103&_nc_oc=Q6cZ2gHxdB2Df5zZjNt4WRDcc7WemHnbtLjwKdI2HrBvb3CX7kpY5qQfJvL2jbpvXb0ch01J0OBwR2DrwYl0ZuCxh_4N&_nc_ohc=uTwdXo2xffkQ7kNvwEXBTfc&_nc_gid=-60Vm7CINVjmmtZjQH8XAA&edm=APs17CUBAAAA&ccb=7-5&oh=00_AQGVjCpGV0i-_6mCNRL90-a0kk426sglOAxrd2LezjiHKA&oe=6A90902E&_nc_sid=10d13b",
+  "updated_at": "2026-08-23T11:53:16Z",
+  "source": "instastatistics_public_cache",
+  "note": "Nouzovy verejny fallback bez Meta API tokenu. Hodnota muze byt zpozdena podle cache treti strany."
 }
